@@ -1,4 +1,4 @@
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class Comanda {
 
@@ -6,7 +6,7 @@ public class Comanda {
 
   public int nrComanda;
 
-    public Vector  myIstoric;
+   private List<Istoric> istoric = new ArrayList<>();
   
   public void afiseazaStare() {
   }

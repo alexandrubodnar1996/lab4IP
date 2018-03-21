@@ -1,12 +1,11 @@
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class Istoric {
 
   public String codComanda;
 
-  public List Comanda;
+  public List<Comanda> comenzi;
 
-    public Vector  myComanda;
 
   public void verificareStare() {
   }

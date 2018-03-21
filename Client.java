@@ -1,17 +1,19 @@
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class Client extends Persoana {
-
+	
+    private List<Comanda> comenzi = new ArrayList<>();
+    
   public String username;
 
   public String password;
+    
 
-    public Vector  1;
     /**
    * 
    * @element-type Comanda
    */
-  public Vector  myComanda;
+
 
   public void login() {
   }

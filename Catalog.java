@@ -1,14 +1,13 @@
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class Catalog {
 
-  public List Produs;
+  public List<Produs> produs = new ArrayList<>();
 
     /**
    * 
    * @element-type Produs
    */
-  public Vector  myProdus;
     public Platforma myPlatforma;
 
   public void removeItem() {

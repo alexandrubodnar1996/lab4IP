@@ -7,7 +7,6 @@ public class Cos {
   public int cantitate;
 
     public Client myClient;
-    public Vector  0..*;
 
   public void Cos() {
   }
